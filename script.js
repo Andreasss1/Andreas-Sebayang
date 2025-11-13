@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const typed = document.getElementById('typed');
     const strings = [
         "Hello...",
-        "I'm an AIoT Automation Engineer & Data Specialist"
+        "I'm an AIoT Automation Engineer"
     ];
     
     let currentString = 0;
@@ -56,4 +56,5 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
 });
