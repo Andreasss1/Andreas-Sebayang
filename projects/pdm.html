@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Predictive Maintenance - Andreas Sebayang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Header -->
+    <header class="bg-gray-800 py-4 border-b border-gray-700">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <!-- Ganti dengan ../index.html -->
+            <a href="../index.html" class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+                Andreas Sebayang
+            </a>
+            <!-- Ganti dengan ../index.html#projects -->
+            <a href="../index.html#projects" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300">
+                Back to Portfolio
+            </a>
+        </div>
+    </header>
+
+    <!-- Project Detail Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <!-- Project Header -->
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+                        Intelligent Predictive Maintenance for Industrial Equipment
+                    </h1>
+                    <p class="text-xl text-gray-400 mb-6">Machine learning-based system for real-time failure prediction and equipment monitoring</p>
+                    <div class="flex justify-center gap-3 flex-wrap">
+                        <span class="px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full text-sm">AI/ML</span>
+                        <span class="px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full text-sm">IoT</span>
+                        <span class="px-3 py-1 bg-green-500/10 text-green-400 rounded-full text-sm">Data Analytics</span>
+                        <span class="px-3 py-1 bg-yellow-500/10 text-yellow-400 rounded-full text-sm">Python</span>
+                    </div>
+                </div>
+
+                <!-- Dashboard Image -->
+                <div class="bg-gray-800 rounded-xl p-6 mb-12 border border-gray-700">
+                    <h2 class="text-2xl font-semibold mb-6 text-cyan-400">Project Dashboard</h2>
+                    <div class="rounded-lg overflow-hidden border border-gray-600">
+                        <img src="../pdm-porto.png" alt="Predictive Maintenance Dashboard" class="w-full h-auto">
+                    </div>
+                </div>
+
+                <!-- Project Overview -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
+                        <h2 class="text-2xl font-semibold mb-4 text-cyan-400">Project Overview</h2>
+                        <p class="text-gray-300 mb-4">
+                            This project implements an intelligent predictive maintenance system for electric boiler equipment, 
+                            utilizing machine learning algorithms to forecast potential failures and optimize maintenance schedules.
+                        </p>
+                        <p class="text-gray-300">
+                            The system processes real-time sensor data from electric boilers including conductivity, pressure, 
+                            and water level measurements to provide actionable insights for maintenance teams.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
+                        <h2 class="text-2xl font-semibold mb-4 text-purple-400">Key Features</h2>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Real-time sensor data monitoring (conductivity, pressure, water level)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Multi-model ML approach for comprehensive analysis</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Interactive dashboard with real-time alerts</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Automated maintenance scheduling based on predictions</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Historical data analysis and trend visualization</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Machine Learning Models -->
+                <div class="bg-gray-800 rounded-xl p-6 mb-12 border border-gray-700">
+                    <h2 class="text-2xl font-semibold mb-6 text-cyan-400">Machine Learning Models</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Model 1 -->
+                        <div class="bg-gray-700/50 rounded-lg p-5 border border-cyan-400/20">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 rounded-full bg-cyan-500/10 flex items-center justify-center">
+                                    <i data-feather="trending-up" class="text-cyan-400"></i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-cyan-400">XGBoost Regression</h3>
+                            </div>
+                            <p class="text-gray-300 text-sm">
+                                Used for forecasting sensor values and predicting equipment performance degradation over time. 
+                                Provides accurate predictions of conductivity, pressure, and water level trends.
+                            </p>
+                        </div>
+
+                        <!-- Model 2 -->
+                        <div class="bg-gray-700/50 rounded-lg p-5 border border-purple-400/20">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center">
+                                    <i data-feather="alert-triangle" class="text-purple-400"></i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-purple-400">Isolation Forest</h3>
+                            </div>
+                            <p class="text-gray-300 text-sm">
+                                Detects anomalies in sensor readings that may indicate potential equipment issues. 
+                                Identifies unusual patterns in conductivity, pressure, and water level data.
+                            </p>
+                        </div>
+
+                        <!-- Model 3 -->
+                        <div class="bg-gray-700/50 rounded-lg p-5 border border-green-400/20">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center">
+                                    <i data-feather="activity" class="text-green-400"></i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-green-400">Random Forest Classifier</h3>
+                            </div>
+                            <p class="text-gray-300 text-sm">
+                                Predicts equipment failure probability based on historical data patterns. 
+                                Classifies equipment states and provides failure probability scores for maintenance planning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Sources & Dashboard Explanation -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
+                        <h2 class="text-2xl font-semibold mb-4 text-cyan-400">Data Sources</h2>
+                        <div class="space-y-4">
+                            <div class="bg-gray-700/30 p-4 rounded-lg">
+                                <h3 class="font-semibold text-cyan-300 mb-2">Conductivity Sensor</h3>
+                                <p class="text-gray-300 text-sm">Measures water conductivity to monitor water quality and detect contamination or scaling issues.</p>
+                            </div>
+                            <div class="bg-gray-700/30 p-4 rounded-lg">
+                                <h3 class="font-semibold text-purple-300 mb-2">Pressure Sensor</h3>
+                                <p class="text-gray-300 text-sm">Monitors system pressure to detect leaks, blockages, or pump failures in real-time.</p>
+                            </div>
+                            <div class="bg-gray-700/30 p-4 rounded-lg">
+                                <h3 class="font-semibold text-green-300 mb-2">Water Level Sensor</h3>
+                                <p class="text-gray-300 text-sm">Tracks water levels to prevent overflow or dry running conditions that could damage equipment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
+                        <h2 class="text-2xl font-semibold mb-4 text-purple-400">Dashboard Features</h2>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Real-time sensor data visualization with historical trends</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>ML model performance metrics and accuracy scores</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Anomaly detection alerts with severity levels</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Failure probability indicators and maintenance recommendations</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span>Equipment health score and remaining useful life estimation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Technical Implementation -->
+                <div class="bg-gray-800 rounded-xl p-6 mb-12 border border-gray-700">
+                    <h2 class="text-2xl font-semibold mb-6 text-cyan-400">Technical Implementation</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3 text-purple-400">Technologies Used</h3>
+                            <div class="space-y-2 text-gray-300">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                    <span>Python (Pandas, Scikit-learn, XGBoost)</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                    <span>Flask/FastAPI for backend API</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                    <span>React.js for frontend dashboard</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                    <span>InfluxDB for time-series data storage</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                    <span>Docker for containerization</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3 text-purple-400">Key Metrics</h3>
+                            <div class="space-y-2 text-gray-300">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-green-400"></span>
+                                    <span>95% accuracy in failure prediction</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-green-400"></span>
+                                    <span>30% reduction in unplanned downtime</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-green-400"></span>
+                                    <span>25% decrease in maintenance costs</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-green-400"></span>
+                                    <span>Real-time processing of sensor data</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back Button -->
+                <div class="text-center">
+                    <!-- Ganti dengan ../index.html#projects -->
+                    <a href="../index.html#projects" class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300">
+                        <i data-feather="arrow-left" class="w-5 h-5"></i>
+                        <span>Back to Portfolio</span>
+                    </a>
+                </div>
+
+                <!-- Footer -->
+                <footer class="bg-gray-800 py-8 border-t border-gray-700">
+                    <div class="container mx-auto px-6 text-center">
+                        <p class="text-gray-400">© 2024 Andreas Sebayang. All rights reserved.</p>
+                    </div>
+                </footer>
+
+                <script>
+                    feather.replace();
+                </script>
+            </body>
+            </html>
